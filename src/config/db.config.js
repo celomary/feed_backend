@@ -1,10 +1,9 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
-const uri = `mongodb+srv://${process.env.FEED_DBUSERNAME}:${process.env.FEED_DBPASSWORD}@${process.env.FEED_DBCLUSTER}.tlcopwh.mongodb.net/${process.env.FEED_DBNAME}?retryWrites=true&w=majority`;
 
 module.exports = () => {
   mongoose
-    .connect(uri)
+    .connect(process.env.FEED_MONGODB_URI)
     .then(() => {
       console.log(
         "\x1b[32m---------------------------------------------------"
