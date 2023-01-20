@@ -1,0 +1,24 @@
+{
+  "name": "feedapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "[expressjs",
+    "mongoose]"
+  ],
+  "author": "El omary",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
