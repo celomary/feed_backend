@@ -1,3 +1,4 @@
+// Recommandiation schema
 const { Schema, model } = require("mongoose");
 
 
