@@ -9,4 +9,4 @@ const SocialSchema = new Schema({
     });
 
 
-module.exports = model("Service", SocialSchema);
+module.exports = model("Social", SocialSchema);
